@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuBar{
+    position: fixed;
+    background: grey;
+    width: 100vw;
+    height: 50px;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: crimson;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+}
+.homeButton{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #121212;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px;
+}
+.followButton{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: grey;
+    color: #121212;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px;
+}
+.searchBar{
+    width: 350px;
+    height: 40px;
+    margin: 4px;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.content{
+    margin-top: 50px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    display: flex;
+}
+.pic{
+    width: 170px;
+    /* height: 200px; */
+    background-color: red;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.size1{
+    height: 180px;
+}
+.size2{
+    height: 200px;
+}
+.size3{
+    height: 160px;
+}
+.size4{
+    height: 250px
+}
+.size5{
+    height: 220px;
+}
+.size6{
+    height: 300px;
+}
+.size7{
+    height: 280px;
+}
+.size8{
+    height: 185px;
+}
+.size9{
+    height: 140px;
+}
+.size10{
+    height: 310px;
+}
+.col{
+    margin-left: 10px;
+    margin-right: 10px;
+}
